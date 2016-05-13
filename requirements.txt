@@ -1,0 +1,5 @@
+curio==0.2
+gevent==1.1.1
+greenlet==0.4.9
+uvloop==0.4.19
+numpy==1.11.0

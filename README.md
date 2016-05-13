@@ -30,9 +30,9 @@ Requests/sec: 18960.17
 Transfer/sec: 18.08MiB
 ```
 
-This code is mainly based on (Magic Sack benchmark)[https://github.com/MagicStack/vmbench] and it is intended to get the magnitudes of the
-echo server between three different stacks : (curio)[https://github.com/dabeaz/curio], (gevent)[https://github.com/gevent/gevent],
-(asyncio+uvloop)[https://github.com/MagicStack/uvloop].
+This code is mainly based on [Magic Sack benchmark](https://github.com/MagicStack/vmbench) and it is intended to get the magnitudes of the
+echo server between three different stacks : [curio](https://github.com/dabeaz/curio), [gevent](https://github.com/gevent/gevent),
+[asyncio+uvloop](https://github.com/MagicStack/uvloop).
 
 The rough numbers gathered are:
 

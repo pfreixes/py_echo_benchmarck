@@ -39,6 +39,7 @@ The rough numbers gathered are:
 | Stack                 | Req/sec  |
 | ----------------------|:--------:|
 | asyncio+uvloop (proto)|       45K|
+| gevent echo optimized |       37K|
 | curio                 |       25K|
 | gevent                |       22K|
 | asyncio+uvloop        |       20K|

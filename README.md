@@ -36,10 +36,11 @@ echo server between three different stacks : [curio](https://github.com/dabeaz/c
 
 The rough numbers gathered are:
 
-| Stack                 | Req/sec  |
-| ----------------------|:--------:|
-| asyncio+uvloop (proto)|       45K|
-| gevent                |       37K|
-| curio                 |       25K|
-| asyncio+uvloop        |       20K|
-| asyncio               |        9K|
+| Stack                    | Req/sec  |
+| -------------------------|:--------:|
+| asyncio+uvloop (proto)   |       45K|
+| gevent                   |       35K|
+| asyncio+uvloop (sockes)  |       32K|
+| asyncio+uvloop (streams) |       28K|
+| curio                    |       25K|
+| asyncio                  |        9K|
